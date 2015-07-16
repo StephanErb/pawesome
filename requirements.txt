@@ -1,2 +1,7 @@
 setuptools>12
 wheel
+
+sphinx
+setuptools_scm
+
+devpi_client

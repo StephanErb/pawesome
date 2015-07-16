@@ -18,7 +18,7 @@ settings are defined in `setup.cfg`.
     devpi use http://mydevpi/myuser/myindex
     devpi login myuser
 
-    devpi upload # performs build and upload
+    devpi upload --with-docs # builds before uploading
 
 
 .. _Release Management with Devpi: https://ep2015.europython.eu/conference/talks/release-management-with-devpi

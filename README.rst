@@ -3,11 +3,6 @@ Welcome! Pawesome!
 
 Example project for the EuroPython talk `Release Management with Devpi`_
 
-Install
--------
-   
-    pip install -r requirements.txt
-
 
 Upload to Devpi
 ---------------
@@ -18,12 +13,13 @@ settings are defined in `setup.cfg`.
   
 .. code:: bash
 
+    pip install -r requirements.txt
+
     devpi use http://mydevpi/myuser/myindex
     devpi login myuser
 
     devpi upload # performs build and upload
 
 
-
-.. _Release Management with Devpi: https://ep2015.europython.eu/conference/talks/release-management-with-devpi)
+.. _Release Management with Devpi: https://ep2015.europython.eu/conference/talks/release-management-with-devpi
 

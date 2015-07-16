@@ -8,7 +8,7 @@ Upload to Devpi
 ---------------
    
 The following command sequence will upload code and documetation to the given 
-Devpi server. Packages are uploaded as wheel and source distributions. Upload
+Devpi server. Packages are uploaded as wheels and source distributions. Upload
 settings are defined in `setup.cfg`.
   
 .. code:: bash

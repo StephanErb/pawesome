@@ -12,4 +12,7 @@ setup(
     packages=find_packages(exclude=['tests']),
     use_scm_version=True,
     setup_requires=['setuptools_scm', 'sphinx'],
+    url='https://github.com/StephanErb/pawesome',
+    author='Stephan Erb',
+    author_email='stephan.erb@blue-yonder.com',
 )
